@@ -1,0 +1,7 @@
+aws_region          = "ap-south-2"
+instance_name       = "module_instance"
+instancetype        = "t3.micro"
+amiid               = "ami-0d810b4169227c0ca"
+availabilityzone   = "ap-south-2a"
+environment         = "aws-project"
+key_name            = "module_key"

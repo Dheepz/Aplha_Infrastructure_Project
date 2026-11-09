@@ -1,0 +1,11 @@
+aws_region             = "ap-south-2"
+vpc_cidr               = "192.168.0.0/16"
+availability_zone      = ["ap-south-2a","ap-south-2b","ap-south-2c"]
+subnet_cidr_public     = ["192.168.0.0/24","192.168.1.0/24"]
+subnet_cidr_private    = ["192.168.2.0/24","192.168.3.0/24"]
+vpc_name               = "aws_web_project"
+subnet_name_public     = "public_subnet"
+subnet_name_private    = "private_subnet"
+ig_name                = "public_IG"
+route_table_public_rt  = "public_rt"
+environment            = "aws-project"
